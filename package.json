@@ -1,0 +1,17 @@
+{
+  "name": "playwright-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "ui": "npx playwright test --ui"
+  },
+  "author": "Nathália Maimone",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.7.5",
+    "typescript": "^5.6.3"
+  }
+}
